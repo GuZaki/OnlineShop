@@ -1,0 +1,153 @@
+section:nth-child(3) {
+    padding-top: 75px;
+    color: #2D2D2D;
+}
+
+.goods-header{
+    font-size: 50px;
+    line-height: 65px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.goods {
+    width: 1770px;
+    margin: 0 auto 700px;
+}
+
+.goods-item {
+    display: grid;
+    grid-template-columns: repeat(4, 420px);
+    grid-template-rows: repeat(2, 394px);
+    gap: 50px 30px;
+}
+
+.discount {
+    background-color: #FFBD13;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 24px;
+    border-radius: 50%;
+    font-size: 30px;
+    line-height: 39px;
+    height: 88px;
+    width: 88px;
+    margin: 187px 0 0 20px;
+    z-index: 5;
+}
+
+.item-name {
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: 400;
+}
+
+.price {
+    font-size: 28px;
+    line-height: 33px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.no-price {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-left: 28px;
+}
+
+.goods-item-01 {
+    background: url("img/goods-1.png") no-repeat;
+    padding: 315px 0 0 0;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.discount-item-01 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.goods-item-02 {
+    background: url("img/goods-2.png") no-repeat;
+    padding: 315px 0 0 0;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.discount-item-02 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.goods-item-03 {
+    background: url("img/goods-3.png") no-repeat;
+    padding: 315px 0 0 0;
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+.discount-item-03 {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+.goods-item-04 {
+    background: url("img/goods-4.png") no-repeat;
+    padding: 315px 0 0 0;
+    grid-column: 4 / 5;
+    grid-row: 1 / 2;
+}
+
+.discount-item-04 {
+    grid-column: 4 / 5;
+    grid-row: 1 / 2;
+}
+
+.goods-item-05 {
+    background: url("img/goods-5.png") no-repeat;
+    padding: 315px 0 0 0;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.discount-item-05 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.goods-item-06 {
+    background: url("img/goods-6.png") no-repeat;
+    padding: 315px 0 0 0;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.discount-item-06 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.goods-item-07 {
+    background: url("img/goods-7.png") no-repeat;
+    padding: 315px 0 0 0;
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+
+.discount-item-07 {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+
+.goods-item-08 {
+    background: url("img/goods-1.png") no-repeat;
+    padding: 315px 0 0 0;
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+}
+
+.discount-item-08 {
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+}

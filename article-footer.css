@@ -1,0 +1,31 @@
+.article-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 55px;
+}
+
+span {
+    font-size: 16px;
+    padding-top: 4px;
+}
+
+.back:before {
+    content: "←";
+    padding-right: 13px;
+    font-size: 20px;
+}
+.figure {
+    width: 275px;
+}
+
+.figcaption {
+    padding-top: 20px;
+    line-height: 33px;
+}
+
+.article-footer-img {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
